@@ -27,7 +27,9 @@
       <li>
         <h2>
           <a class="info" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
+					{% assign post = site.posts.first %}
+					{% assign content = post.content %}
+				</h2>
       </li>
     {% endfor %}
   </ul>
