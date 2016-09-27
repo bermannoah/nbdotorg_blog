@@ -21,12 +21,24 @@
 .post {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 400;
   color: #000;
   position: relative;
   margin: 20px;
   float: left;
   margin-top: auto;
+  margin-left: 75px;
+}
+
+.post-logo {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000;
+  position: inherit;
+  margin: 20px;
+  float: left;
+  margin-top: 200px;
   margin-left: 75px;
 }
 
