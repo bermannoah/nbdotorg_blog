@@ -18,11 +18,11 @@ email: noah@noahberman.org
 description: > # this means to ignore newlines until "baseurl:"
   A blog for a thing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://noahberman.org" # the base hostname & protocol for your site
+url: "url: https://github.com/bermannoah/nbdotorg_blog" # the base hostname & protocol for your site
 twitter_username: ofmistakes
 github_username:  bermannoah
 
 # Build settings
 markdown: kramdown
 theme: minima
-include: [css]
+include: [css, blog-head.html]
