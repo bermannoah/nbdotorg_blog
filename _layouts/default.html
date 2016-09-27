@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>noah berman</title>
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!-- logo goes here -->
+
+<div class="logo"><a href="http://www.noahberman.org">
+	<p>NOAH</p>
+	<p>BERMAN</p>
+</a>
+</div>
+
+<!-- content goes here -->
+
+<div class="home">
+
+  <h1 class="blog-logo"> > accidents, a blog</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="info" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-button">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
+
+
+</body>
+</html>
