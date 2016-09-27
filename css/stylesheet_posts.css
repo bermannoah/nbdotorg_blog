@@ -84,7 +84,7 @@
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 a:hover {
@@ -94,7 +94,7 @@ a:hover {
 
 a:visited {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 a:visited:hover {
   color: #8DC27C;

@@ -17,6 +17,19 @@
   border-bottom: 5px solid black;
 }
 
+.logo-link {
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #000;
+  position: relative;
+  margin: 20px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 75px;
+  border-bottom: 5px solid black;
+}
+
 .blog-logo {
   font-family: Helvetica, sans-serif;
   font-size: 30px;
@@ -63,14 +76,14 @@
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: 900;
-  color: #000;
+  color: #fff;
   position: relative;
   float: left;
   clear: both;
   margin: 23px;
-  line-height: 40px;
+  line-height: 20px;
   margin-left: 75px;
-  padding: 5px;
+  padding: 1px;
 }
 
 .info > p {
@@ -93,7 +106,7 @@ a:hover {
 
 a:visited {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 a:visited:hover {
   color: #8DC27C;
@@ -106,7 +119,7 @@ a:visited:hover {
 
 .logo > a:hover {
   text-decoration: none;
-  color: #000;
+  color: #8DC27C;
 }
 
 .logo > a:visited {
