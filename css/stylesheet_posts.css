@@ -1,4 +1,5 @@
 /* Page styles */
+
 * {
   background-color: #fff;
 }
@@ -19,7 +20,7 @@ img {
   border: 4px solid #000000;
 }
 
-/* Text styles */
+/* Logo styles */
 
 .logo {
   font-family: Helvetica, sans-serif;
@@ -33,6 +34,28 @@ img {
   margin-left: 75px;
   border-bottom: 5px solid black;
 }
+
+
+.logo > a {
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo > a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo > a:visited {
+  color: #000;
+}
+/* Post text styles */
 
 .post {
   font-family: Georgia;
@@ -63,6 +86,8 @@ img {
   margin-left: 75px;
   text-align: left;
 }
+
+/* Blog specific meta styles */
 
 .blog-logo {
   font-family: Helvetica, sans-serif;
@@ -101,11 +126,7 @@ img {
   margin-left: 75px;
 }
 
-.logo > a {
-  font-family: Helvetica, sans-serif;
-  font-size: 50px;
-  font-weight: 900;
-}
+/* Info styles */
 
 .info {
   font-family: 'Roboto', Helvetica, sans-serif;
@@ -144,18 +165,4 @@ a:visited {
 }
 a:visited:hover {
   color: #8DC27C;
-}
-
-.logo > a {
-  text-decoration: none;
-  color: #000;
-}
-
-.logo > a:hover {
-  text-decoration: none;
-  color: #000;
-}
-
-.logo > a:visited {
-  color: #000;
 }
