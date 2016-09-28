@@ -21,13 +21,16 @@
 .post {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   color: #000;
   position: relative;
   margin: 20px;
+  clear: left;
   float: left;
   margin-top: auto;
   margin-left: 75px;
+  line-height: 150%;
+  text-align: left;
 }
 
 .post-logo {
@@ -35,11 +38,12 @@
   font-size: 30px;
   font-weight: 800;
   color: #000;
-  position: inherit;
+  position: relative;
   margin: 20px;
   float: left;
-  margin-top: 200px;
+  clear: left;
   margin-left: 75px;
+  text-align: left;
 }
 
 .blog-logo {

@@ -19,7 +19,7 @@
 	    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 	{% endif %}
 	</h1>
-	<div class="post">{{ content }}</div>
+	<div class="post">{{ content | markdownify }}</div>
 	
 	<p class="rss-button">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
