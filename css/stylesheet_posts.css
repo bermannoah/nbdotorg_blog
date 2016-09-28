@@ -1,6 +1,6 @@
 /* Page styles */
 * {
-  background-color: #ffffff;
+  background-color: #d3d9d7;
 }
 
 /* Image styles */
@@ -40,6 +40,8 @@ img {
   margin-left: 75px;
   line-height: 150%;
   text-align: left;
+  max-width: 75%;
+  max-height: auto;
 }
 
 .post-logo {

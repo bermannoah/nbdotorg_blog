@@ -13,10 +13,7 @@
 <body>
 	<h1 class="post-logo">
 	{% if page.title %}
-	    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-	{% endif %}
-	{% if post.title %}
-	    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+	    <p>{{ page.title }}</p>
 	{% endif %}
 	</h1>
 	<div class="post">{{ content | markdownify }}</div>

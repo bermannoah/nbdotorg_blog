@@ -1,6 +1,6 @@
 /* Page styles */
 * {
-  background-color: #ffffff;
+  background-color: #d3d9d7;
 }
 
 /* Image styles */
@@ -8,7 +8,7 @@
 img {
   width: 60%;
   height: auto;
-  border:100px solid #000000;
+  border: 10px;
 }
 
 .profile-image {
@@ -45,6 +45,11 @@ img {
   margin-left: 75px;
   line-height: 150%;
   text-align: left;
+  max-width: 75%;
+}
+
+.post-main-page > img {
+  border: 100px solid black;
 }
 
 .post-logo {
