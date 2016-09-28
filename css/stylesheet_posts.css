@@ -1,6 +1,6 @@
 /* Page styles */
 * {
-  background-color: #7CB0C2;
+  background-color: #ffffff;
 }
 
 /* Text styles */
@@ -19,8 +19,8 @@
 }
 
 .post {
-  font-family: Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: Georgia;
+  font-size: 1em;
   font-weight: 500;
   color: #000;
   position: relative;

@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "This Is Just to Say"
+date:   2016-09-27 10:58:02 -0600
+categories: sample
+---
+
+<p>A few moments after, the funnel of the Henrietta vomited forth torrents of smoke.  The vessel continued to proceed with all steam on; but on the 18th, the engineer, as he had predicted, announced that the coal would give out in the course of the day.</p>
+
+<p>"Do not let the fires go down," replied Mr. Fogg.  "Keep them up to the last.  Let the valves be filled."</p>
+
+<p>Towards noon Phileas Fogg, having ascertained their position, called Passepartout, and ordered him to go for Captain Speedy.  It was as if the honest fellow had been commanded to unchain a tiger.  He went to the poop, saying to himself, "He will be like a madman!"</p>
+
+<p>In a few moments, with cries and oaths, a bomb appeared on the poop-deck.  The bomb was Captain Speedy.  It was clear that he was on the point of bursting.  "Where are we?"  were the first words his anger permitted him to utter.  Had the poor man be an apoplectic, he could never have recovered from his paroxysm of wrath.</p>
+
+<p>"Where are we?" he repeated, with purple face.</p>
+
+<p>"Seven hundred and seven miles from Liverpool," replied Mr. Fogg, with imperturbable calmness.</p>
+
+<p>"Pirate!" cried Captain Speedy.</p>

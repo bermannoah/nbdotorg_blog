@@ -1,6 +1,6 @@
 /* Page styles */
 * {
-  background-color: #7CB0C2;
+  background-color: #ffffff;
 }
 /* Text styles */
 
@@ -17,6 +17,34 @@
   border-bottom: 5px solid black;
 }
 
+.post-main-page {
+  font-family: Georgia;
+  font-size: 1em;
+  font-weight: 500;
+  color: #000;
+  position: relative;
+  margin: 20px;
+  clear: both;
+  float: inherit;
+  margin-top: auto;
+  margin-left: 75px;
+  line-height: 150%;
+  text-align: left;
+}
+
+.post-logo {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #000;
+  position: relative;
+  margin: 20px;
+  float: left;
+  clear: left;
+  margin-left: 75px;
+  text-align: left;
+}
+
 .logo-link {
   font-family: Helvetica, sans-serif;
   font-size: 50px;
@@ -24,7 +52,7 @@
   color: #000;
   position: relative;
   margin: 20px;
-  float: left;
+  float: right;
   margin-top: 50px;
   margin-left: 75px;
   border-bottom: 5px solid black;
@@ -74,16 +102,15 @@
 
 .info {
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 900;
-  color: #fff;
+  color: #000;
   position: relative;
   float: left;
   clear: both;
-  margin: 23px;
-  line-height: 20px;
+  margin: 5px;
+  line-height: 1;
   margin-left: 75px;
-  padding: 1px;
 }
 
 .info > p {
@@ -91,26 +118,12 @@
   font-weight: 900;
 }
 
+.info > a:visited {
+  text-decoration: none;
+  color: #7CB0C2;
+}
 
 /* Link styles */
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #8DC27C;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #000;
-}
-a:visited:hover {
-  color: #8DC27C;
-}
 
 .logo > a {
   text-decoration: none;
@@ -123,5 +136,19 @@ a:visited:hover {
 }
 
 .logo > a:visited {
+  text-decoration: none;
   color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #8DC27C;
+}
+a:visited:hover {
+  color: #8DC27C;
 }

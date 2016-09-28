@@ -20,7 +20,8 @@
 <!-- content goes here -->
 
 <div class="home">
-
+		<div class="info">{{ site.posts.first.title | markdownify }}</div>
+		<div class="post-main-page">{{ site.posts.first.content | markdownify }}</div>
 
   <ul class="post-list">
     {% for post in site.posts %}

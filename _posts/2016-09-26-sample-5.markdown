@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A delightful little sample post"
-date:   2016-09-26 10:58:02 -0600
+title:  "the icebox"
+date:   2016-09-23 10:58:02 -0600
 categories: sample
 ---
 
@@ -14,7 +14,3 @@ categories: sample
 <p>In a few moments, with cries and oaths, a bomb appeared on the poop-deck.  The bomb was Captain Speedy.  It was clear that he was on the point of bursting.  "Where are we?"  were the first words his anger permitted him to utter.  Had the poor man be an apoplectic, he could never have recovered from his paroxysm of wrath.</p>
 
 <p>"Where are we?" he repeated, with purple face.</p>
-
-<p>"Seven hundred and seven miles from Liverpool," replied Mr. Fogg, with imperturbable calmness.</p>
-
-<p>"Pirate!" cried Captain Speedy.</p>
