@@ -11,6 +11,12 @@ img {
   border:100px solid #000000;
 }
 
+.profile-image {
+  width: 20%;
+  height: auto;
+  border: 2px solid #000000;
+}
+
 /* Text styles */
 
 .logo {
@@ -123,9 +129,15 @@ img {
   margin-left: 75px;
 }
 
-.info > p {
-  font-family: 'Roboto', Helvetica, sans-serif;
+.back-button {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
   font-weight: 900;
+  color: #000;
+  float: left;
+  clear: both;
+  margin: 5px;
+  line-height: 1;
 }
 
 .info > a:visited {
