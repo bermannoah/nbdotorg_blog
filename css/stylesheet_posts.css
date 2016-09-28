@@ -3,6 +3,15 @@
   background-color: #ffffff;
 }
 
+/* Image styles */
+
+img {
+  width: 40%;
+  height: auto;
+  clear: both;
+  border: 10px solid #000000;
+}
+
 /* Text styles */
 
 .logo {

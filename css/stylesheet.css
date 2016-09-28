@@ -2,6 +2,15 @@
 * {
   background-color: #ffffff;
 }
+
+/* Image styles */
+
+img {
+  width: 60%;
+  height: auto;
+  border:100px solid #000000;
+}
+
 /* Text styles */
 
 .logo {
@@ -102,7 +111,7 @@
 }
 
 .info {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 900;
   color: #000;
