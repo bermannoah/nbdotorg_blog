@@ -5,7 +5,7 @@ date:   2016-09-27 10:58:02 -0600
 categories: sample
 ---
 
-<img src="/nbdotorg_blog/assets/london.jpg">
+<img class="post-photo" alt="London in the sun, a Camden Town side-street" src="/nbdotorg_blog/assets/london.jpg">
 <p>Five hours' New York jet lag and Cayce Pollard wakes in Camden town
 to the dire and ever-circling wolves of disrupted circadian rhythm.</p>
 <br />
@@ -24,4 +24,4 @@ monomers.</p>
 <p>She knows, now, absolutely, hearing the white noise that is London, that
 Damien's theory of jet lag is correct...</p>
 <br />
-[excerpt from Pattern Recognition, by William Gibson]
+[excerpt from William Gibson's Pattern Recognition]

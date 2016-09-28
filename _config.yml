@@ -26,3 +26,4 @@ github_username: bermannoah
 markdown: kramdown
 theme: minima
 include: [css, blog-head.html]
+paginate: 4
