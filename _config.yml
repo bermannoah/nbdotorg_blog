@@ -27,3 +27,4 @@ markdown: kramdown
 theme: minima
 include: [css, blog-head.html]
 paginate: 4
+gems: [jekyll-paginate]
