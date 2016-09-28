@@ -13,15 +13,15 @@
 <body>
 	<h1 class="post-logo">
 	{% if page.title %}
-	    <a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a>
+	    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
 	{% endif %}
 	{% if post.title %}
-	    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+	    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 	{% endif %}
 	</h1>
 	<div class="post">{{ content }}</div>
 	
-	<p class="rss-button">subscribe <a href="{{ "/feed.xml" | prepend: site.github.url }}">via RSS</a></p>
+	<p class="rss-button">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </body>
 </html>
