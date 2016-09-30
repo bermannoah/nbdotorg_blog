@@ -26,13 +26,10 @@ img {
   font-weight: 900;
   color: #000;
   position: relative;
-  margin: 20px;
   float: left;
-  margin-top: 50px;
   margin-left: 75px;
   border-bottom: 5px solid black;
 }
-
 
 .logo > a {
   font-family: Helvetica, sans-serif;
