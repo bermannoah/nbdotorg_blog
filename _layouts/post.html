@@ -4,11 +4,34 @@
 	{% include post-header.html %}
 </head>
 
+<!-- logo goes here -->
+
 <div><a href="http://blog.noahberman.org" class="logo">
 	<p>NOAH</p>
 	<p>BERMAN</p>
-	</a>
+</a>
 </div>
+
+<!-- right side header content goes here -->
+
+<div class="contact-info">
+	<a href="http://blog.noahberman.org" class="post-list">_HOME</a>
+  <a href="/about.html" class="post-list">_ABOUT</a>
+</div>
+<div>
+	<a href="/" class="post-list">_POSTS</a>
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<h2>
+				<a class="post-list" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+			</h2>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+
+<!-- content goes here -->
 
 <body>
 	<h1 class="post-logo">
@@ -19,7 +42,7 @@
 	<div class="post">{{ content | markdownify }}</div>
 	<p class="info"><a href="/">< back </a></p>
 	
-	<p class="rss-button">click to: <a href="https://www.twitter.com/ofmistakes" target="_blank">check out my tweets, </a><a 	href="https://github.com/bermannoah" target="_blank">take a look at my projects on github, </a><a href="{{ "/feed.xml" | prepend: 	site.baseurl }}">or subscribe via RSS</a></p>
+	{% include site-footer.html %}
 
 </body>
 </html>

@@ -14,12 +14,12 @@ img {
 .profile-image {
   width: 20%;
   height: auto;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
 }
 
 .post-photo {
   clear: both;
-  border: 4px solid #000000;
+  border: 2px solid #000000;
 }
 
 /* Logo text styles */
@@ -30,9 +30,7 @@ img {
   font-weight: 900;
   color: #000;
   position: relative;
-  margin: 20px;
   float: left;
-  margin-top: 50px;
   margin-left: 75px;
   border-bottom: 5px solid black;
 }
@@ -75,11 +73,8 @@ img {
   font-size: 1em;
   font-weight: 500;
   color: #000;
-  position: relative;
-  margin: 20px;
-  clear: both;
-  float: inherit;
-  margin-top: auto;
+  clear: left;
+  margin-top: 110px;
   margin-left: 75px;
   line-height: 150%;
   text-align: left;
@@ -156,12 +151,9 @@ img {
   font-size: 1em;
   font-weight: 900;
   color: #000;
-  position: relative;
-  float: left;
-  clear: both;
-  margin: 5px;
-  line-height: 1;
   margin-left: 75px;
+  margin: auto;
+  position: static;
 }
 
 .info > a:visited {
@@ -170,9 +162,21 @@ img {
 }
 
 .contact-info {
-clear:both;
+  margin-top: 2em;
 }
 
+.post-list {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  color: #000;
+  margin: 5px;
+  line-height: 1;
+  margin-left: 75px;
+  margin-right: 250px;
+  clear: right;
+  float: right;
+}
 
 /* Link styles */
 
